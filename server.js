@@ -8,7 +8,7 @@ const Place = require('./models/Place');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://miguelmororo10_db_user:484rX9FoUUJSI3UC@cluster0.08vnthm.mongodb.net/?appName=Cluster0';
+const MONGO_URI = process.env.MONGO_URI || 'sua chave secreta aqui';
 
 app.use(cors());
 app.use(express.json({ limit: '10mb' }));
